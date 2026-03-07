@@ -1,0 +1,30 @@
+{
+  "name": "mindgrade",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/genai": "^1.33.0",
+    "@tanstack/react-router": "^1.163.3",
+    "@tanstack/router-devtools": "^1.163.3",
+    "katex": "^0.16.35",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "react-katex": "^3.1.0",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.15",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

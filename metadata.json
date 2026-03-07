@@ -1,0 +1,5 @@
+{
+  "name": "MindGrade",
+  "description": "An AI-powered testing platform for any domain that evaluates answer accuracy and reasoning logic.",
+  "requestFramePermissions": []
+}

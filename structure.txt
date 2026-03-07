@@ -1,0 +1,45 @@
+.
+├── backend
+│   ├── main.py
+│   ├── __pycache__
+│   │   ├── main.cpython-313.pyc
+│   │   └── schemas.cpython-313.pyc
+│   ├── schemas.py
+│   └── venv
+├── components
+│   ├── LandingPage.tsx
+│   ├── LoadingSpinner.tsx
+│   ├── ManualQuizBuilder.tsx
+│   ├── MathRenderer.tsx
+│   ├── MindGradeLogo.tsx
+│   ├── QuestionNavigation.tsx
+│   ├── QuizCard.tsx
+│   ├── QuizSetup.tsx
+│   └── ResultsView.tsx
+├── constants.ts
+├── index.html
+├── index.tsx
+├── metadata.json
+├── migrated_prompt_history
+│   └── prompt_2026-01-02T06:31:01.938Z.json
+├── package.json
+├── package-lock.json
+├── README.md
+├── router.tsx
+├── routes
+│   ├── index.tsx
+│   ├── quiz.tsx
+│   ├── results.tsx
+│   ├── __root.tsx
+│   ├── setup.tsx
+│   └── status.tsx
+├── services
+│   └── apiService.ts
+├── store
+│   └── quizStore.ts
+├── structure.txt
+├── tsconfig.json
+├── types.ts
+└── vite.config.ts
+
+294 directories, 2011 files
