@@ -25,7 +25,7 @@ function Setup() {
       navigate({ to: '/quiz' });
     } catch (err) {
       console.error(err);
-      setErrorMsg("Failed to generate quiz. Please check your API Key or try again.");
+      setErrorMsg("Failed to generate quiz. Please try again.");
       navigate({ to: '/error' });
     }
   };

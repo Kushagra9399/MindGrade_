@@ -1,0 +1,5 @@
+fastapi
+mangum
+groq
+python-dotenv
+pydantic
