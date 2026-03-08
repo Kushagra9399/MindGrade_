@@ -20,6 +20,11 @@ const MathRenderer: React.FC<MathRendererProps> = ({ text, className = "", inlin
 
     let processed = input;
 
+    // FIX 1: Normalize the backslashes BEFORE counting dollars
+    // This turns \\triangle into \triangle
+    processed = processed.replace(/\\\\/g, '\\');
+
+    // FIX 2: Ensure we don't accidentally close an unclosed dollar sign
     const dollarCount = (processed.match(/(?<!\\)\$/g) || []).length;
     if (dollarCount % 2 !== 0) {
       processed += " $";

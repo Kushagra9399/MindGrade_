@@ -65,7 +65,9 @@ export const evaluateQuiz = async (
       throw new Error("Failed to evaluate quiz");
     }
 
-    return (await response.json()) as QuizResult;
+    const data = await response.json();
+    console.log("Evaluation Successful:", data);
+    return data as QuizResult;
 
   } catch (error) {
     console.error("Evaluation Error:", error);
