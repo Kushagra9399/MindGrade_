@@ -1,11 +1,52 @@
 .
+├── amplify
+│   ├── backend
+│   │   ├── amplify-meta.json
+│   │   ├── api
+│   │   │   └── quizapi
+│   │   │       └── cli-inputs.json
+│   │   ├── awscloudformation
+│   │   ├── backend-config.json
+│   │   ├── function
+│   │   ├── tags.json
+│   │   └── types
+│   │       └── amplify-dependent-resources-ref.d.ts
+│   ├── cli.json
+│   ├── #current-cloud-backend
+│   │   ├── amplify-meta.json
+│   │   ├── api
+│   │   │   └── quizapi
+│   │   │       └── cli-inputs.json
+│   │   ├── awscloudformation
+│   │   ├── backend-config.json
+│   │   ├── function
+│   │   │   └── quizApi
+│   │   │       ├── amplify.state
+│   │   │       ├── custom-policies.json
+│   │   │       ├── function-parameters.json
+│   │   │       ├── Pipfile
+│   │   │       ├── Pipfile.lock
+│   │   │       ├── quizApi-cloudformation-template.json
+│   │   │       └── src
+│   │   │           ├── index.py
+│   │   │           ├── main.py
+│   │   │           ├── requirements.txt
+│   │   │           └── schemas.py
+│   │   └── tags.json
+│   ├── hooks
+│   │   ├── post-push.sh.sample
+│   │   ├── pre-push.js.sample
+│   │   └── README.md
+│   ├── README.md
+│   └── team-provider-info.json
 ├── backend
 │   ├── main.py
 │   ├── __pycache__
 │   │   ├── main.cpython-313.pyc
 │   │   └── schemas.cpython-313.pyc
-│   ├── schemas.py
-│   └── venv
+│   ├── requirements.txt
+│   └── schemas.py
+├── bun.lock
 ├── components
 │   ├── LandingPage.tsx
 │   ├── LoadingSpinner.tsx
@@ -20,8 +61,6 @@
 ├── index.html
 ├── index.tsx
 ├── metadata.json
-├── migrated_prompt_history
-│   └── prompt_2026-01-02T06:31:01.938Z.json
 ├── package.json
 ├── package-lock.json
 ├── README.md
@@ -35,11 +74,15 @@
 │   └── status.tsx
 ├── services
 │   └── apiService.ts
+├── src
+│   ├── amplifyconfiguration.json
+│   └── aws-exports.js
 ├── store
 │   └── quizStore.ts
 ├── structure.txt
 ├── tsconfig.json
 ├── types.ts
-└── vite.config.ts
+├── vite.config.ts
+└── vite-env.d.ts
 
-294 directories, 2011 files
+23 directories, 63 files

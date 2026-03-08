@@ -12,9 +12,10 @@ lerna-debug.log*
 
 *.zip
 
-venv
+/backend
+/amplify
 
-amplify/
+venv
 
 node_modules
 dist
