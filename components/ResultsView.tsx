@@ -31,7 +31,7 @@ const ResultsView: React.FC<ResultsViewProps> = ({ result, questions, userRespon
       <div className={`p-8 rounded-2xl border-2 ${gradeBg} flex flex-col md:flex-row items-center justify-between shadow-sm`}>
         <div className="mb-6 md:mb-0 text-center md:text-left overflow-hidden break-words">
           <h2 className={`text-3xl font-bold ${gradeColor} mb-2`}>Quiz Complete!</h2>
-          <p className="text-slate-700 text-lg"><MathRenderer text={result.summary} /></p>
+          <div className="text-slate-700 text-lg"><MathRenderer text={result.summary} /></div>
         </div>
         <div className="flex flex-col items-center justify-center bg-white p-6 rounded-2xl shadow-sm border border-slate-100 min-w-[200px]">
           <span className="text-sm text-slate-500 uppercase tracking-wider font-semibold mb-1">Total Score</span>
